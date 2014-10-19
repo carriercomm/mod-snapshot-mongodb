@@ -1,0 +1,27 @@
+{
+  "name": "snapshot-mongodb",
+  "types": ["module"],
+  "version": "1.0",
+  "homepage": "http://github.com/naparuba/mod-snapshot-mongodb",
+  "author": "Jean Gabès",
+  "description": "Module for saving/loading snapshot date into a mongodb cluster",
+  "contributors": [
+    {
+      "name": "Jean Gabès",
+      "email": "naparuba@gmail.com"
+    }
+  ],
+  "repository": "https://github.com/naparuba/mod-snapshot-mongodb",
+  "keywords": [
+    "module",
+    "broker",
+    "snapshot",
+    "mongo",
+    "mongodb",
+    "webui"
+  ],
+  "dependencies": {
+    "shinken": ">=2.2"
+  },
+  "license": "MIT"
+}
