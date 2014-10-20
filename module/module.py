@@ -78,7 +78,7 @@ class Mongodb_snapshot(BaseModule):
 
         self.db = getattr(self.con, self.database)
         self.snapshots = getattr(self.db, 'snapshots')
-        self.snapshots.ensure_index([ ('host_name':pymongo.DESCENDING), ('snapshot_time':pymongo.DESCENDING)])
+        self.snapshots.ensure_index([ ('host_name',pymongo.DESCENDING), ('snapshot_time',pymongo.DESCENDING)])
 
 
     def manage_host_snapshot_brok(self, b):
